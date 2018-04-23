@@ -87,7 +87,7 @@ int main()
     if(DEBUG) printf("\r\n CCC initialzed, tested and set to enc mode \r\n");
 
     //ASSUME WE HAVE A DATA STREAM IN AND WE KNOW THE SIZE OF THE IMAGE IN ADVANCE
-    int dataSize = 2560 ; //mod 16 to test padding
+    int dataSize = 2560 ; //rand() mod 16 to test padding
     unsigned char dataIn[dataSize];
     unsigned char dataOut[dataSize];
     unsigned char check[dataSize + 16 - dataSize%16];
@@ -118,12 +118,13 @@ int main()
     
     
     
-    if(DEBUG) printf("\r\n IMG ORIGINAL --- ENCRYPED WITH iv1: \r\n");
+    if(DEBUG) printf("\r\n IMG ORIGINAL --- PRE - ENCRYPTION: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
             printf("%02x ", dataIn[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
+        printf("\r\n");
     }
     
     const int blockSize = 16;
@@ -148,12 +149,13 @@ int main()
     }
 
     
-    if(DEBUG) printf("\r\n DDD --- ENCRYPED WITH iv1: \r\n");
+    if(DEBUG) printf("\r\n DDD --- ENCRYPED BLOCK CBC: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
             printf("%02x ", dataOut[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
+        printf("\r\n");
     }
  //   if(DEBUG) printf("\r\n EEE --- ENCRYPED WITH iv1: \r\n");
 
@@ -166,12 +168,13 @@ int main()
 //    if(DEBUG) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_DECRYPT, dataSize, initVecFlash, dataOut, check);
 //    if(DEBUG) printf("\r\n GGG --- IMAGE DECRYPTED WITH iv2: \r\n");
 //
-    if(DEBUG) printf("\r\n IMG2 --- Encrypted WITH iv2: \r\n");
+    if(DEBUG) printf("\r\n EEE --- ENCRYPTED AS A WHOLE STREAM: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
             printf("%02x ", check[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
+        printf("\r\n");
     }
 
     if(DEBUGV) for(int ii = 0; ii < dataSize; ii++) if(dataOut[ii] != check[ii]) {
