@@ -22,7 +22,7 @@ int main()
         program_flash(addrEndTable, (char*)endTable ,4); //int where to write, char* what to write, int number of bytes
     }
     
-    //if(debug) printf("\r\n data at address %x is %x \r\n", data, *data);
+    //if(debug) printf("\r\n data at address %02x is %02x \r\n", data, *data);
 
     unsigned char pixCount[1] = {0x00}; //incrememted per picture taken
 
@@ -61,7 +61,7 @@ int main()
 
     if(DEBUG) printf("\r\n BBB --- SYMKEY GEN'D: \r\n");
     if(DEBUG) {
-        for(int ii = 0; ii < 16; ii++) printf("%x ", temp[ii]);
+        for(int ii = 0; ii < 16; ii++) printf("%02x ", temp[ii]);
         printf("\r\n");
     }
 
@@ -86,10 +86,10 @@ int main()
     if(DEBUG) printf("\r\n CCC initialzed, tested and set to enc mode \r\n");
 
     //ASSUME WE HAVE A DATA STREAM IN AND WE KNOW THE SIZE OF THE IMAGE IN ADVANCE
-    int dataSize = 2560;
+    int dataSize = 2560 + rand()%16; //mod 15 to test padding
     unsigned char dataIn[dataSize];
     unsigned char dataOut[dataSize];
-    unsigned char check[dataSize];
+    unsigned char check[dataSize + dataSize%16];
     //GNEREATING RANDOM "IAMGE"
     for (int ii = 0; ii < dataSize; ii++)
         dataIn[ii] = rand() % 256; //generates a random byte for dummer image
@@ -100,43 +100,79 @@ int main()
     if(DEBUG) printf("\r\n IMG ORIGINAL --- ENCRYPED WITH iv1: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
-            printf("%x ", dataIn[ii]);
+            printf("%02x ", dataIn[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
     }
 
-    mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize, initVec, dataIn, dataOut); //ECB for the image encryption
+    //BASELINE FOR NEW SEQUENTIAL CBC ENCRYPTION
+    if(DEBUGV) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize, initVecFlash, dataIn, check); //ECB for the image encryption
+    //The following code is equivilant to what is above due to how cbc works
+    
+    //We have to make sure that the dataSize is a multiple of 16
+    int flag = 0;
+    unsigned char adjustedDataIn[dataSize + dataSize%16];
+    if(dataSize%16) {
+        flag = 1;
+        for (int ii = 0; ii < dataSize; ii++)
+            adjustedDataIn[ii] = dataIn[ii];
+        for(int ii = 0; ii < dataSize%16; ii++) 
+            adjustedDataIn[ii + dataSize] = 0;
+    }
+    
+    const int blockSize = 16;
+    
+    unsigned char currBlock[blockSize];
+    unsigned char cbcOut[blockSize];
+    unsigned char newIv[blockSize];
+    for(int ii = 0; ii < dataSize/blockSize; ii++){
+        //preparing next block
+        for(int jj = 0; jj < blockSize; jj++){
+            if(flag)currBlock[jj] = adjustedDataIn[jj + ii*blockSize];
+            else currBlock[jj] = dataIn[jj + ii*blockSize];
+        }
+         
+        if(ii == 0) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, 16, initVec, currBlock, cbcOut);
+        else mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, 16, newIv, currBlock, cbcOut); 
+        
+        for(int jj = 0; jj < blockSize; jj++){
+            dataOut[jj + ii*blockSize] = cbcOut[jj];
+            newIv[jj] = cbcOut[jj];
+            }
+    }
 
+    
     if(DEBUG) printf("\r\n DDD --- ENCRYPED WITH iv1: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
-            printf("%x ", dataOut[ii]);
+            printf("%02x ", dataOut[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
     }
     if(DEBUG) printf("\r\n EEE --- ENCRYPED WITH iv1: \r\n");
 
-    //STARTING DECRYPTION
-    if(mbedtls_aes_setkey_dec(&AESCtx, symKey,128)) {
-        printf("\r\n setKey failed PART 2\r\n");
-        return 1;
-    }
-    if(DEBUG) printf("\r\n FFF --- DECRYPED MODE SET \r\n");
-    if(DEBUG) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_DECRYPT, dataSize, initVecFlash, dataOut, check);
-    if(DEBUG) printf("\r\n GGG --- IMAGE DECRYPTED WITH iv2: \r\n");
-
-    if(DEBUG) printf("\r\n IMG2 --- DECRYPRED WITH iv2: \r\n");
+    //STARTING DECRYPTION ======= DELETE THIS
+//    if(mbedtls_aes_setkey_dec(&AESCtx, symKey,128)) {
+//        printf("\r\n setKey failed PART 2\r\n");
+//        return 1;
+//    }
+//    if(DEBUG) printf("\r\n FFF --- DECRYPED MODE SET \r\n");
+//    if(DEBUG) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_DECRYPT, dataSize, initVecFlash, dataOut, check);
+//    if(DEBUG) printf("\r\n GGG --- IMAGE DECRYPTED WITH iv2: \r\n");
+//
+    if(DEBUG) printf("\r\n IMG2 --- Encrypted WITH iv2: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
-            printf("%x ", check[ii]);
+            printf("%02x ", check[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
     }
 
-    if(DEBUGV) for(int ii = 1; ii < dataSize; ii++) if(dataIn[ii] != check[ii]) {
-                printf("DECRYPTIION ERROR at byte %d \r\n", ii);
+    if(DEBUGV) for(int ii = 1; ii < dataSize; ii++) if(dataOut[ii] != check[ii]) {
+                printf("ENCRYPTION ERROR at byte %d \r\n", ii);
                 return 1;
             }
+// ======================= DELETE THIS
 
 
     if(DEBUGV) printf("\r\n HHH --- DECRYPTION TEST PASSED \r\n");

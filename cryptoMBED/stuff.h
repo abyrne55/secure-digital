@@ -42,8 +42,8 @@ extern unsigned char saltForFires[8] = {0x77, 0x80, 0x81, 0xFF, 0x9C, 0x7B, 0x74
 
 extern uint32_t roundKey[16] = {0x61, 0x02, 0xDF, 0x60, 0x05, 0x32, 0xF5, 0x33, 0xC9, 0xAF, 0xB7, 0x1A, 0x8A, 0x87, 0xF4, 0xB9}; //round key for AES
 
-int DEBUG = 1; //for debug statements
-int DEBUGV = 0;
+extern int DEBUG = 1; //for debug statements
+extern int DEBUGV = 1;
 const int sizeOfEntry = 36; //16 bytes cbc key, 16 bytes initVec; 4 bytes for number of picutres
 
 
