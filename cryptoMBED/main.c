@@ -96,28 +96,37 @@ int main()
 
     //ECB ENCRYPTION WITH SYM KEY
 
-
+    //BASELINE FOR NEW SEQUENTIAL CBC ENCRYPTION
+    //ECB for the image encryption
+    //The following code is equivilant to what is above due to how cbc works
+    
+    //We have to make sure that the dataSize is a multiple of 16
+    int flag = 0;
+    unsigned char adjustedDataIn[dataSize + dataSize%16];
+    if(dataSize%16) { //if !=0 then true
+        flag = 1;
+        for (int ii = 0; ii < dataSize; ii++)
+            adjustedDataIn[ii] = dataIn[ii];
+        for(int ii = 0; ii < dataSize%16; ii++) 
+            adjustedDataIn[ii + dataSize] = 0;
+    }
+    
+    for(int ii = 0; ii < dataSize + dataSize%16; ii++){
+        if(flag) check[ii] = adjustedDataIn[ii];
+        else check[ii] = dataIn[ii];
+    }
+    
+    if(flag) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize + dataSize%16, initVecFlash, adjustedDataIn, check); 
+    else mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize + dataSize%16, initVecFlash, dataIn, check);
+    
+    
+    
     if(DEBUG) printf("\r\n IMG ORIGINAL --- ENCRYPED WITH iv1: \r\n");
     if(DEBUGV) {
         for(int ii = 0; ii < dataSize; ii++) {
             printf("%02x ", dataIn[ii]);
             if(ii%16 == 0) printf("\r\n");
         }
-    }
-
-    //BASELINE FOR NEW SEQUENTIAL CBC ENCRYPTION
-    if(DEBUGV) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize, initVecFlash, dataIn, check); //ECB for the image encryption
-    //The following code is equivilant to what is above due to how cbc works
-    
-    //We have to make sure that the dataSize is a multiple of 16
-    int flag = 0;
-    unsigned char adjustedDataIn[dataSize + dataSize%16];
-    if(dataSize%16) {
-        flag = 1;
-        for (int ii = 0; ii < dataSize; ii++)
-            adjustedDataIn[ii] = dataIn[ii];
-        for(int ii = 0; ii < dataSize%16; ii++) 
-            adjustedDataIn[ii + dataSize] = 0;
     }
     
     const int blockSize = 16;
@@ -132,8 +141,8 @@ int main()
             else currBlock[jj] = dataIn[jj + ii*blockSize];
         }
          
-        if(ii == 0) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, 16, initVec, currBlock, cbcOut);
-        else mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, 16, newIv, currBlock, cbcOut); 
+        if(ii == 0) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, blockSize, initVec, currBlock, cbcOut);
+        else mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, blockSize, newIv, currBlock, cbcOut); 
         
         for(int jj = 0; jj < blockSize; jj++){
             dataOut[jj + ii*blockSize] = cbcOut[jj];
@@ -149,7 +158,7 @@ int main()
             if(ii%16 == 0) printf("\r\n");
         }
     }
-    if(DEBUG) printf("\r\n EEE --- ENCRYPED WITH iv1: \r\n");
+ //   if(DEBUG) printf("\r\n EEE --- ENCRYPED WITH iv1: \r\n");
 
     //STARTING DECRYPTION ======= DELETE THIS
 //    if(mbedtls_aes_setkey_dec(&AESCtx, symKey,128)) {
