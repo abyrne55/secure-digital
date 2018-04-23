@@ -45,7 +45,8 @@ int main()
         temp[ii] = rand() % 256;
     //initVec
     for (int ii = 0; ii < 16; ii++)
-        initVec[ii] = rand() % 256;
+        initVec[ii] = 0x00; //hard-coded for ease of debugging
+//        initVec[ii] = rand() % 256;
     //initVecFlash, this one will be saved for the flash
     for (int ii = 0; ii < 16; ii++)
         initVecFlash[ii] = initVec[ii];
@@ -86,10 +87,10 @@ int main()
     if(DEBUG) printf("\r\n CCC initialzed, tested and set to enc mode \r\n");
 
     //ASSUME WE HAVE A DATA STREAM IN AND WE KNOW THE SIZE OF THE IMAGE IN ADVANCE
-    int dataSize = 2560 + rand()%16; //mod 15 to test padding
+    int dataSize = 2560 ; //mod 16 to test padding
     unsigned char dataIn[dataSize];
     unsigned char dataOut[dataSize];
-    unsigned char check[dataSize + dataSize%16];
+    unsigned char check[dataSize + 16 - dataSize%16];
     //GNEREATING RANDOM "IAMGE"
     for (int ii = 0; ii < dataSize; ii++)
         dataIn[ii] = rand() % 256; //generates a random byte for dummer image
@@ -102,22 +103,18 @@ int main()
     
     //We have to make sure that the dataSize is a multiple of 16
     int flag = 0;
-    unsigned char adjustedDataIn[dataSize + dataSize%16];
+    unsigned char adjustedDataIn[dataSize + 16 - dataSize%16];
     if(dataSize%16) { //if !=0 then true
         flag = 1;
         for (int ii = 0; ii < dataSize; ii++)
             adjustedDataIn[ii] = dataIn[ii];
-        for(int ii = 0; ii < dataSize%16; ii++) 
-            adjustedDataIn[ii + dataSize] = 0;
+        for(int ii = 0; ii < 16 - dataSize%16; ii++) 
+            adjustedDataIn[ii + dataSize] = 0x00;
     }
     
-    for(int ii = 0; ii < dataSize + dataSize%16; ii++){
-        if(flag) check[ii] = adjustedDataIn[ii];
-        else check[ii] = dataIn[ii];
-    }
     
-    if(flag) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize + dataSize%16, initVecFlash, adjustedDataIn, check); 
-    else mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize + dataSize%16, initVecFlash, dataIn, check);
+    if(flag) mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize + 16 - dataSize%16, initVecFlash, adjustedDataIn, check); 
+    else mbedtls_aes_crypt_cbc(&AESCtx, MBEDTLS_AES_ENCRYPT, dataSize, initVecFlash, dataIn, check);
     
     
     
@@ -177,7 +174,7 @@ int main()
         }
     }
 
-    if(DEBUGV) for(int ii = 1; ii < dataSize; ii++) if(dataOut[ii] != check[ii]) {
+    if(DEBUGV) for(int ii = 0; ii < dataSize; ii++) if(dataOut[ii] != check[ii]) {
                 printf("ENCRYPTION ERROR at byte %d \r\n", ii);
                 return 1;
             }
