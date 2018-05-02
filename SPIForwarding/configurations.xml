@@ -1,0 +1,2092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+    <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+        <logicalFolder name="HeaderFiles"
+                       displayName="Header Files"
+                       projectFiles="true">
+            <logicalFolder name="f1" displayName="" projectFiles="true">
+            <logicalFolder name="f2" displayName="tmp" projectFiles="true">
+            <logicalFolder name="f3" displayName="tmpEip5EY" projectFiles="true">
+            <itemPath>/tmp/tmpEip5EY/mbed_config.h</itemPath>
+            </logicalFolder>
+            </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="SWSPI" projectFiles="true">
+            <itemPath>SWSPI/SWSPI.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f5" displayName="mbed" projectFiles="true">
+            <logicalFolder name="f6" displayName="TARGET_K64F" projectFiles="true">
+            <logicalFolder name="f7" displayName="TARGET_Freescale" projectFiles="true">
+            <logicalFolder name="f8" displayName="TARGET_MCUXpresso_MCUS" projectFiles="true">
+            <logicalFolder name="f9" displayName="TARGET_MCU_K64F" projectFiles="true">
+            <logicalFolder name="f10" displayName="TARGET_FRDM" projectFiles="true">
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f11" displayName="device" projectFiles="true">
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h</itemPath>
+            </logicalFolder>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h</itemPath>
+            <logicalFolder name="f12" displayName="drivers" projectFiles="true">
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_mpu.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h</itemPath>
+            </logicalFolder>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f13" displayName="api" projectFiles="true">
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h</itemPath>
+            </logicalFolder>
+            </logicalFolder>
+            <itemPath>mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h</itemPath>
+            </logicalFolder>
+            <itemPath>mbed/TARGET_K64F/arm_math.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/cmsis_armcc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/cmsis_armclang.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/cmsis_compiler.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/cmsis_gcc.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/cmsis_iccarm.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/cmsis_version.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_armv8mbl.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_armv8mml.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm0.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm0plus.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm23.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm3.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm33.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm4.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cm7.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_cmSecureAccess.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_sc000.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/core_sc300.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/mpu_armv7.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/mpu_armv8.h</itemPath>
+            <itemPath>mbed/TARGET_K64F/tz_context.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f14" displayName="drivers" projectFiles="true">
+            <itemPath>mbed/drivers/AnalogIn.h</itemPath>
+            <itemPath>mbed/drivers/AnalogOut.h</itemPath>
+            <itemPath>mbed/drivers/BusIn.h</itemPath>
+            <itemPath>mbed/drivers/BusInOut.h</itemPath>
+            <itemPath>mbed/drivers/BusOut.h</itemPath>
+            <itemPath>mbed/drivers/CAN.h</itemPath>
+            <itemPath>mbed/drivers/DigitalIn.h</itemPath>
+            <itemPath>mbed/drivers/DigitalInOut.h</itemPath>
+            <itemPath>mbed/drivers/DigitalOut.h</itemPath>
+            <itemPath>mbed/drivers/Ethernet.h</itemPath>
+            <itemPath>mbed/drivers/FlashIAP.h</itemPath>
+            <itemPath>mbed/drivers/I2C.h</itemPath>
+            <itemPath>mbed/drivers/I2CSlave.h</itemPath>
+            <itemPath>mbed/drivers/InterruptIn.h</itemPath>
+            <itemPath>mbed/drivers/InterruptManager.h</itemPath>
+            <itemPath>mbed/drivers/LowPowerTicker.h</itemPath>
+            <itemPath>mbed/drivers/LowPowerTimeout.h</itemPath>
+            <itemPath>mbed/drivers/LowPowerTimer.h</itemPath>
+            <itemPath>mbed/drivers/PortIn.h</itemPath>
+            <itemPath>mbed/drivers/PortInOut.h</itemPath>
+            <itemPath>mbed/drivers/PortOut.h</itemPath>
+            <itemPath>mbed/drivers/PwmOut.h</itemPath>
+            <itemPath>mbed/drivers/RawSerial.h</itemPath>
+            <itemPath>mbed/drivers/SPI.h</itemPath>
+            <itemPath>mbed/drivers/SPISlave.h</itemPath>
+            <itemPath>mbed/drivers/Serial.h</itemPath>
+            <itemPath>mbed/drivers/SerialBase.h</itemPath>
+            <itemPath>mbed/drivers/Ticker.h</itemPath>
+            <itemPath>mbed/drivers/Timeout.h</itemPath>
+            <itemPath>mbed/drivers/Timer.h</itemPath>
+            <itemPath>mbed/drivers/TimerEvent.h</itemPath>
+            <itemPath>mbed/drivers/UARTSerial.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f15" displayName="hal" projectFiles="true">
+            <itemPath>mbed/hal/Driver_Common.h</itemPath>
+            <itemPath>mbed/hal/Driver_Storage.h</itemPath>
+            <itemPath>mbed/hal/analogin_api.h</itemPath>
+            <itemPath>mbed/hal/analogout_api.h</itemPath>
+            <itemPath>mbed/hal/buffer.h</itemPath>
+            <itemPath>mbed/hal/can_api.h</itemPath>
+            <itemPath>mbed/hal/can_helper.h</itemPath>
+            <itemPath>mbed/hal/dma_api.h</itemPath>
+            <itemPath>mbed/hal/emac_api.h</itemPath>
+            <itemPath>mbed/hal/ethernet_api.h</itemPath>
+            <itemPath>mbed/hal/flash_api.h</itemPath>
+            <itemPath>mbed/hal/flash_data.h</itemPath>
+            <itemPath>mbed/hal/gpio_api.h</itemPath>
+            <itemPath>mbed/hal/gpio_irq_api.h</itemPath>
+            <itemPath>mbed/hal/i2c_api.h</itemPath>
+            <itemPath>mbed/hal/lp_ticker_api.h</itemPath>
+            <itemPath>mbed/hal/pinmap.h</itemPath>
+            <itemPath>mbed/hal/port_api.h</itemPath>
+            <itemPath>mbed/hal/pwmout_api.h</itemPath>
+            <itemPath>mbed/hal/rtc_api.h</itemPath>
+            <itemPath>mbed/hal/serial_api.h</itemPath>
+            <itemPath>mbed/hal/sleep_api.h</itemPath>
+            <itemPath>mbed/hal/spi_api.h</itemPath>
+            <itemPath>mbed/hal/ticker_api.h</itemPath>
+            <itemPath>mbed/hal/trng_api.h</itemPath>
+            <itemPath>mbed/hal/us_ticker_api.h</itemPath>
+            </logicalFolder>
+            <itemPath>mbed/mbed.h</itemPath>
+            <logicalFolder name="f16" displayName="platform" projectFiles="true">
+            <itemPath>mbed/platform/ATCmdParser.h</itemPath>
+            <itemPath>mbed/platform/CThunk.h</itemPath>
+            <itemPath>mbed/platform/CallChain.h</itemPath>
+            <itemPath>mbed/platform/Callback.h</itemPath>
+            <itemPath>mbed/platform/CircularBuffer.h</itemPath>
+            <itemPath>mbed/platform/CriticalSectionLock.h</itemPath>
+            <itemPath>mbed/platform/DeepSleepLock.h</itemPath>
+            <itemPath>mbed/platform/DirHandle.h</itemPath>
+            <itemPath>mbed/platform/FileBase.h</itemPath>
+            <itemPath>mbed/platform/FileHandle.h</itemPath>
+            <itemPath>mbed/platform/FileLike.h</itemPath>
+            <itemPath>mbed/platform/FilePath.h</itemPath>
+            <itemPath>mbed/platform/FileSystemHandle.h</itemPath>
+            <itemPath>mbed/platform/FileSystemLike.h</itemPath>
+            <itemPath>mbed/platform/FunctionPointer.h</itemPath>
+            <itemPath>mbed/platform/LocalFileSystem.h</itemPath>
+            <itemPath>mbed/platform/NonCopyable.h</itemPath>
+            <itemPath>mbed/platform/PlatformMutex.h</itemPath>
+            <itemPath>mbed/platform/SingletonPtr.h</itemPath>
+            <itemPath>mbed/platform/Stream.h</itemPath>
+            <itemPath>mbed/platform/Transaction.h</itemPath>
+            <itemPath>mbed/platform/critical.h</itemPath>
+            <itemPath>mbed/platform/mbed_application.h</itemPath>
+            <itemPath>mbed/platform/mbed_assert.h</itemPath>
+            <itemPath>mbed/platform/mbed_critical.h</itemPath>
+            <itemPath>mbed/platform/mbed_debug.h</itemPath>
+            <itemPath>mbed/platform/mbed_error.h</itemPath>
+            <itemPath>mbed/platform/mbed_interface.h</itemPath>
+            <itemPath>mbed/platform/mbed_mem_trace.h</itemPath>
+            <itemPath>mbed/platform/mbed_mktime.h</itemPath>
+            <itemPath>mbed/platform/mbed_poll.h</itemPath>
+            <itemPath>mbed/platform/mbed_preprocessor.h</itemPath>
+            <itemPath>mbed/platform/mbed_retarget.h</itemPath>
+            <itemPath>mbed/platform/mbed_rtc_time.h</itemPath>
+            <itemPath>mbed/platform/mbed_semihost_api.h</itemPath>
+            <itemPath>mbed/platform/mbed_sleep.h</itemPath>
+            <itemPath>mbed/platform/mbed_stats.h</itemPath>
+            <itemPath>mbed/platform/mbed_toolchain.h</itemPath>
+            <itemPath>mbed/platform/mbed_wait_api.h</itemPath>
+            <itemPath>mbed/platform/platform.h</itemPath>
+            <itemPath>mbed/platform/rtc_time.h</itemPath>
+            <itemPath>mbed/platform/semihost_api.h</itemPath>
+            <itemPath>mbed/platform/sleep.h</itemPath>
+            <itemPath>mbed/platform/toolchain.h</itemPath>
+            <itemPath>mbed/platform/wait_api.h</itemPath>
+            </logicalFolder></logicalFolder>
+            
+        </logicalFolder>
+        <logicalFolder name="LinkerScript"
+                       displayName="Linker Files"
+                       projectFiles="true">
+            <itemPath>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM/MK64FN1M0xxx12.ld</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ResourceFiles"
+                       displayName="Resource Files"
+                       projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="SourceFiles"
+                       displayName="Source Files"
+                       projectFiles="true">
+            <logicalFolder name="f1" displayName="SWSPI" projectFiles="true">
+            <itemPath>SWSPI/SWSPI.cpp</itemPath>
+            </logicalFolder>
+            <itemPath>main.cpp</itemPath>
+            
+        </logicalFolder>
+        <logicalFolder name="OtherFiles"
+                       displayName="Other Files"
+                       projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="TestFiles"
+                       displayName="Test Files"
+                       projectFiles="false"
+                       kind="TEST_LOGICAL_FOLDER">
+        </logicalFolder>
+        <logicalFolder name="ExternalFiles"
+                       displayName="Important Files"
+                       projectFiles="false"
+                       kind="IMPORTANT_FILES_FOLDER">
+            <itemPath>Makefile</itemPath>
+        </logicalFolder>
+    </logicalFolder>
+    <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+    <sourceRootList>
+        <Elem>.</Elem>
+    </sourceRootList>
+    <projectmakefile>Makefile</projectmakefile>
+    <confs>
+        
+        <conf name="debug" type="1">
+            <toolsSet>
+                <compilerSet>default</compilerSet>
+                <dependencyChecking>true</dependencyChecking>
+                <rebuildPropChanged>false</rebuildPropChanged>
+            </toolsSet>
+            <compileType>
+                <cTool>
+                    <standard>3</standard>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -O0 -g3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>MBED_DEBUG</Elem>
+                        <Elem>MBED_TRAP_ERRORS_ENABLED=1</Elem>
+                        <Elem>FEATURE_LWIP=1</Elem>
+                        <Elem>__MBED__=1</Elem>
+                        <Elem>DEVICE_I2CSLAVE=1</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>TARGET_Freescale</Elem>
+                        <Elem>DEVICE_PORTINOUT=1</Elem>
+                        <Elem>TARGET_RTOS_M4_M7</Elem>
+                        <Elem>DEVICE_LOWPOWERTIMER=1</Elem>
+                        <Elem>DEVICE_RTC=1</Elem>
+                        <Elem>TOOLCHAIN_object</Elem>
+                        <Elem>DEVICE_SERIAL_ASYNCH=1</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        <Elem>DEVICE_STORAGE=1</Elem>
+                        <Elem>TARGET_KPSDK_MCUS</Elem>
+                        <Elem>TOOLCHAIN_GCC</Elem>
+                        <Elem>TARGET_CORTEX_M</Elem>
+                        <Elem>TARGET_KSDK2_MCUS</Elem>
+                        <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+                        <Elem>DEVICE_ANALOGOUT=1</Elem>
+                        <Elem>TARGET_M4</Elem>
+                        <Elem>TARGET_UVISOR_UNSUPPORTED</Elem>
+                        <Elem>TARGET_K64F</Elem>
+                        <Elem>DEVICE_SPI_ASYNCH=1</Elem>
+                        <Elem>DEVICE_PWMOUT=1</Elem>
+                        <Elem>DEVICE_INTERRUPTIN=1</Elem>
+                        <Elem>TARGET_CORTEX</Elem>
+                        <Elem>DEVICE_I2C=1</Elem>
+                        <Elem>DEVICE_PORTOUT=1</Elem>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>DEVICE_STDIO_MESSAGES=1</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>TARGET_LIKE_MBED</Elem>
+                        <Elem>TARGET_FF_ARDUINO</Elem>
+                        <Elem>TARGET_KPSDK_CODE</Elem>
+                        <Elem>TARGET_RELEASE</Elem>
+                        <Elem>DEVICE_SERIAL_FC=1</Elem>
+                        <Elem>FEATURE_STORAGE=1</Elem>
+                        <Elem>DEVICE_TRNG=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>DEVICE_SLEEP=1</Elem>
+                        <Elem>TOOLCHAIN_GCC_ARM</Elem>
+                        <Elem>TARGET_FRDM</Elem>
+                        <Elem>TARGET_MCUXpresso_MCUS</Elem>
+                        <Elem>DEVICE_SPI=1</Elem>
+                        <Elem>MBED_BUILD_TIMESTAMP=1525296447.15</Elem>
+                        <Elem>DEVICE_SPISLAVE=1</Elem>
+                        <Elem>DEVICE_ANALOGIN=1</Elem>
+                        <Elem>DEVICE_SERIAL=1</Elem>
+                        <Elem>DEVICE_FLASH=1</Elem>
+                        <Elem>DEVICE_PORTIN=1</Elem>
+                        <Elem>TARGET_MCU_K64F</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                </cTool>
+                <ccTool>
+                    <standard>4</standard>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-fno-rtti -Wvla -c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -O0 -g3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>MBED_DEBUG</Elem>
+                        <Elem>MBED_TRAP_ERRORS_ENABLED=1</Elem>
+                        <Elem>FEATURE_LWIP=1</Elem>
+                        <Elem>__MBED__=1</Elem>
+                        <Elem>DEVICE_I2CSLAVE=1</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>TARGET_Freescale</Elem>
+                        <Elem>DEVICE_PORTINOUT=1</Elem>
+                        <Elem>TARGET_RTOS_M4_M7</Elem>
+                        <Elem>DEVICE_LOWPOWERTIMER=1</Elem>
+                        <Elem>DEVICE_RTC=1</Elem>
+                        <Elem>TOOLCHAIN_object</Elem>
+                        <Elem>DEVICE_SERIAL_ASYNCH=1</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        <Elem>DEVICE_STORAGE=1</Elem>
+                        <Elem>TARGET_KPSDK_MCUS</Elem>
+                        <Elem>TOOLCHAIN_GCC</Elem>
+                        <Elem>TARGET_CORTEX_M</Elem>
+                        <Elem>TARGET_KSDK2_MCUS</Elem>
+                        <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+                        <Elem>DEVICE_ANALOGOUT=1</Elem>
+                        <Elem>TARGET_M4</Elem>
+                        <Elem>TARGET_UVISOR_UNSUPPORTED</Elem>
+                        <Elem>TARGET_K64F</Elem>
+                        <Elem>DEVICE_SPI_ASYNCH=1</Elem>
+                        <Elem>DEVICE_PWMOUT=1</Elem>
+                        <Elem>DEVICE_INTERRUPTIN=1</Elem>
+                        <Elem>TARGET_CORTEX</Elem>
+                        <Elem>DEVICE_I2C=1</Elem>
+                        <Elem>DEVICE_PORTOUT=1</Elem>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>DEVICE_STDIO_MESSAGES=1</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>TARGET_LIKE_MBED</Elem>
+                        <Elem>TARGET_FF_ARDUINO</Elem>
+                        <Elem>TARGET_KPSDK_CODE</Elem>
+                        <Elem>TARGET_RELEASE</Elem>
+                        <Elem>DEVICE_SERIAL_FC=1</Elem>
+                        <Elem>FEATURE_STORAGE=1</Elem>
+                        <Elem>DEVICE_TRNG=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>DEVICE_SLEEP=1</Elem>
+                        <Elem>TOOLCHAIN_GCC_ARM</Elem>
+                        <Elem>TARGET_FRDM</Elem>
+                        <Elem>TARGET_MCUXpresso_MCUS</Elem>
+                        <Elem>DEVICE_SPI=1</Elem>
+                        <Elem>MBED_BUILD_TIMESTAMP=1525296447.15</Elem>
+                        <Elem>DEVICE_SPISLAVE=1</Elem>
+                        <Elem>DEVICE_ANALOGIN=1</Elem>
+                        <Elem>DEVICE_SERIAL=1</Elem>
+                        <Elem>DEVICE_FLASH=1</Elem>
+                        <Elem>DEVICE_PORTIN=1</Elem>
+                        <Elem>TARGET_MCU_K64F</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-g++</commandlineTool>
+                </ccTool>
+                <fortranCompilerTool>
+                    <developmentMode>5</developmentMode>
+                </fortranCompilerTool>
+                <asmTool>
+                    <developmentMode>5</developmentMode>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-x assembler-with-cpp -D__CORTEX_M4 -DCPU_MK64FN1M0VMD12 -DARM_MATH_CM4 -D__FPU_PRESENT=1 -D__MBED_CMSIS_RTOS_CM -D__CMSIS_RTOS -DFSL_RTOS_MBED -I. -ISWSPI -Imbed/. -Imbed/TARGET_K64F -Imbed/TARGET_K64F/TARGET_Freescale -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api -Imbed/TARGET_K64F/TOOLCHAIN_GCC_ARM -Imbed/drivers -Imbed/hal -Imbed/platform -c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -O0 -g3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                </asmTool>
+                <linkerTool>
+                    <output>${CND_DISTDIR}/${CND_CONF}/K64F/pin_mirror_spi.elf</output>
+                    <additionalDep>${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld</additionalDep>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                    <commandLine>-T ${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys</commandLine>
+                </linkerTool>
+            </compileType>
+            <item path="SWSPI/SWSPI.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/mbed.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_armcc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/arm_math.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cmSecureAccess.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_armclang.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_compiler.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_gcc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_iccarm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_version.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_armv8mbl.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_armv8mml.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm0.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm0plus.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm23.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm3.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm33.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm4.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm7.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_sc000.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_sc300.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/mpu_armv7.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/mpu_armv8.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/tz_context.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_mpu.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/AnalogIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/AnalogOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/CAN.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Ethernet.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/FlashIAP.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/I2C.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/I2CSlave.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/InterruptIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/InterruptManager.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTicker.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTimeout.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTimer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PwmOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/RawSerial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SPI.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SPISlave.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Serial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SerialBase.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Ticker.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Timeout.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Timer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/TimerEvent.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/UARTSerial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/Driver_Common.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/Driver_Storage.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/analogin_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/analogout_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/buffer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/can_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/can_helper.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/dma_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/emac_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/ethernet_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/flash_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/flash_data.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/gpio_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/gpio_irq_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/i2c_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/lp_ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/pinmap.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/port_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/pwmout_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/rtc_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/serial_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/sleep_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/spi_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/trng_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/us_ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CriticalSectionLock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/ATCmdParser.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CThunk.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CallChain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Callback.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CircularBuffer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/DeepSleepLock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/DirHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileBase.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileLike.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FilePath.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileSystemHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileSystemLike.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FunctionPointer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/LocalFileSystem.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/NonCopyable.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/PlatformMutex.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/SingletonPtr.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Stream.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Transaction.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/critical.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_application.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_assert.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_critical.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_debug.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_error.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_interface.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_mem_trace.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_mktime.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_poll.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_preprocessor.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_retarget.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_rtc_time.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_semihost_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_sleep.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_stats.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_toolchain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_wait_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/platform.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/rtc_time.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/semihost_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/sleep.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/toolchain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/wait_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="/tmp/tmpEip5EY/mbed_config.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="main.cpp" ex="false" tool="1" flavor2="0">
+                <ccTool flags="0">
+                </ccTool>
+            </item>
+            <item path="SWSPI/SWSPI.cpp" ex="false" tool="1" flavor2="0">
+                <ccTool flags="0">
+                </ccTool>
+            </item>
+            <item path="mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM/MK64FN1M0xxx12.ld" ex="false" tool="3" flavor2="0">
+                <customTool>
+                    <customToolCommandline>arm-none-eabi-cpp -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -o $@ $&lt;</customToolCommandline>
+                    <customToolDescription>Create ELF File using Link Script</customToolDescription>
+                    <customToolOutputs>${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld</customToolOutputs>
+                </customTool>
+            </item>
+            <item path="/nbproject/private/c_standard_headers_indexer.c" ex="true" tool="0" flavor2="0">
+            </item>
+            <item path="/nbproject/private/c_standard_headers_indexer.cpp" ex="true" tool="1" flavor2="0">
+            </item>
+        </conf>
+        
+        <conf name="release" type="1">
+            <toolsSet>
+                <compilerSet>default</compilerSet>
+                <dependencyChecking>true</dependencyChecking>
+                <rebuildPropChanged>false</rebuildPropChanged>
+            </toolsSet>
+            <compileType>
+                <cTool>
+                    <standard>3</standard>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -Os -g1 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>NDEBUG</Elem>
+                        <Elem>FEATURE_LWIP=1</Elem>
+                        <Elem>__MBED__=1</Elem>
+                        <Elem>DEVICE_I2CSLAVE=1</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>TARGET_Freescale</Elem>
+                        <Elem>DEVICE_PORTINOUT=1</Elem>
+                        <Elem>TARGET_RTOS_M4_M7</Elem>
+                        <Elem>DEVICE_LOWPOWERTIMER=1</Elem>
+                        <Elem>DEVICE_RTC=1</Elem>
+                        <Elem>TOOLCHAIN_object</Elem>
+                        <Elem>DEVICE_SERIAL_ASYNCH=1</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        <Elem>DEVICE_STORAGE=1</Elem>
+                        <Elem>TARGET_KPSDK_MCUS</Elem>
+                        <Elem>TOOLCHAIN_GCC</Elem>
+                        <Elem>TARGET_CORTEX_M</Elem>
+                        <Elem>TARGET_KSDK2_MCUS</Elem>
+                        <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+                        <Elem>DEVICE_ANALOGOUT=1</Elem>
+                        <Elem>TARGET_M4</Elem>
+                        <Elem>TARGET_UVISOR_UNSUPPORTED</Elem>
+                        <Elem>TARGET_K64F</Elem>
+                        <Elem>DEVICE_SPI_ASYNCH=1</Elem>
+                        <Elem>DEVICE_PWMOUT=1</Elem>
+                        <Elem>DEVICE_INTERRUPTIN=1</Elem>
+                        <Elem>TARGET_CORTEX</Elem>
+                        <Elem>DEVICE_I2C=1</Elem>
+                        <Elem>DEVICE_PORTOUT=1</Elem>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>DEVICE_STDIO_MESSAGES=1</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>TARGET_LIKE_MBED</Elem>
+                        <Elem>TARGET_FF_ARDUINO</Elem>
+                        <Elem>TARGET_KPSDK_CODE</Elem>
+                        <Elem>TARGET_RELEASE</Elem>
+                        <Elem>DEVICE_SERIAL_FC=1</Elem>
+                        <Elem>FEATURE_STORAGE=1</Elem>
+                        <Elem>DEVICE_TRNG=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>DEVICE_SLEEP=1</Elem>
+                        <Elem>TOOLCHAIN_GCC_ARM</Elem>
+                        <Elem>TARGET_FRDM</Elem>
+                        <Elem>TARGET_MCUXpresso_MCUS</Elem>
+                        <Elem>DEVICE_SPI=1</Elem>
+                        <Elem>MBED_BUILD_TIMESTAMP=1525296447.15</Elem>
+                        <Elem>DEVICE_SPISLAVE=1</Elem>
+                        <Elem>DEVICE_ANALOGIN=1</Elem>
+                        <Elem>DEVICE_SERIAL=1</Elem>
+                        <Elem>DEVICE_FLASH=1</Elem>
+                        <Elem>DEVICE_PORTIN=1</Elem>
+                        <Elem>TARGET_MCU_K64F</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                </cTool>
+                <ccTool>
+                    <standard>4</standard>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-fno-rtti -Wvla -c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -Os -g1 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>NDEBUG</Elem>
+                        <Elem>FEATURE_LWIP=1</Elem>
+                        <Elem>__MBED__=1</Elem>
+                        <Elem>DEVICE_I2CSLAVE=1</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>TARGET_Freescale</Elem>
+                        <Elem>DEVICE_PORTINOUT=1</Elem>
+                        <Elem>TARGET_RTOS_M4_M7</Elem>
+                        <Elem>DEVICE_LOWPOWERTIMER=1</Elem>
+                        <Elem>DEVICE_RTC=1</Elem>
+                        <Elem>TOOLCHAIN_object</Elem>
+                        <Elem>DEVICE_SERIAL_ASYNCH=1</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        <Elem>DEVICE_STORAGE=1</Elem>
+                        <Elem>TARGET_KPSDK_MCUS</Elem>
+                        <Elem>TOOLCHAIN_GCC</Elem>
+                        <Elem>TARGET_CORTEX_M</Elem>
+                        <Elem>TARGET_KSDK2_MCUS</Elem>
+                        <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+                        <Elem>DEVICE_ANALOGOUT=1</Elem>
+                        <Elem>TARGET_M4</Elem>
+                        <Elem>TARGET_UVISOR_UNSUPPORTED</Elem>
+                        <Elem>TARGET_K64F</Elem>
+                        <Elem>DEVICE_SPI_ASYNCH=1</Elem>
+                        <Elem>DEVICE_PWMOUT=1</Elem>
+                        <Elem>DEVICE_INTERRUPTIN=1</Elem>
+                        <Elem>TARGET_CORTEX</Elem>
+                        <Elem>DEVICE_I2C=1</Elem>
+                        <Elem>DEVICE_PORTOUT=1</Elem>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>DEVICE_STDIO_MESSAGES=1</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>TARGET_LIKE_MBED</Elem>
+                        <Elem>TARGET_FF_ARDUINO</Elem>
+                        <Elem>TARGET_KPSDK_CODE</Elem>
+                        <Elem>TARGET_RELEASE</Elem>
+                        <Elem>DEVICE_SERIAL_FC=1</Elem>
+                        <Elem>FEATURE_STORAGE=1</Elem>
+                        <Elem>DEVICE_TRNG=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>DEVICE_SLEEP=1</Elem>
+                        <Elem>TOOLCHAIN_GCC_ARM</Elem>
+                        <Elem>TARGET_FRDM</Elem>
+                        <Elem>TARGET_MCUXpresso_MCUS</Elem>
+                        <Elem>DEVICE_SPI=1</Elem>
+                        <Elem>MBED_BUILD_TIMESTAMP=1525296447.15</Elem>
+                        <Elem>DEVICE_SPISLAVE=1</Elem>
+                        <Elem>DEVICE_ANALOGIN=1</Elem>
+                        <Elem>DEVICE_SERIAL=1</Elem>
+                        <Elem>DEVICE_FLASH=1</Elem>
+                        <Elem>DEVICE_PORTIN=1</Elem>
+                        <Elem>TARGET_MCU_K64F</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-g++</commandlineTool>
+                </ccTool>
+                <fortranCompilerTool>
+                    <developmentMode>5</developmentMode>
+                </fortranCompilerTool>
+                <asmTool>
+                    <developmentMode>5</developmentMode>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-x assembler-with-cpp -D__CORTEX_M4 -DCPU_MK64FN1M0VMD12 -DARM_MATH_CM4 -D__FPU_PRESENT=1 -D__MBED_CMSIS_RTOS_CM -D__CMSIS_RTOS -DFSL_RTOS_MBED -I. -ISWSPI -Imbed/. -Imbed/TARGET_K64F -Imbed/TARGET_K64F/TARGET_Freescale -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api -Imbed/TARGET_K64F/TOOLCHAIN_GCC_ARM -Imbed/drivers -Imbed/hal -Imbed/platform -c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -Os -g1 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                </asmTool>
+                <linkerTool>
+                    <output>${CND_DISTDIR}/${CND_CONF}/K64F/pin_mirror_spi.elf</output>
+                    <additionalDep>${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld</additionalDep>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                    <commandLine>-T ${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys</commandLine>
+                </linkerTool>
+            </compileType>
+            <item path="SWSPI/SWSPI.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/mbed.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_armcc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/arm_math.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cmSecureAccess.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_armclang.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_compiler.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_gcc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_iccarm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_version.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_armv8mbl.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_armv8mml.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm0.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm0plus.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm23.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm3.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm33.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm4.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm7.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_sc000.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_sc300.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/mpu_armv7.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/mpu_armv8.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/tz_context.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_mpu.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/AnalogIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/AnalogOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/CAN.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Ethernet.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/FlashIAP.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/I2C.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/I2CSlave.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/InterruptIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/InterruptManager.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTicker.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTimeout.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTimer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PwmOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/RawSerial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SPI.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SPISlave.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Serial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SerialBase.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Ticker.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Timeout.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Timer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/TimerEvent.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/UARTSerial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/Driver_Common.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/Driver_Storage.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/analogin_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/analogout_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/buffer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/can_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/can_helper.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/dma_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/emac_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/ethernet_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/flash_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/flash_data.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/gpio_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/gpio_irq_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/i2c_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/lp_ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/pinmap.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/port_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/pwmout_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/rtc_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/serial_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/sleep_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/spi_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/trng_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/us_ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CriticalSectionLock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/ATCmdParser.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CThunk.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CallChain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Callback.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CircularBuffer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/DeepSleepLock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/DirHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileBase.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileLike.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FilePath.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileSystemHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileSystemLike.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FunctionPointer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/LocalFileSystem.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/NonCopyable.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/PlatformMutex.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/SingletonPtr.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Stream.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Transaction.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/critical.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_application.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_assert.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_critical.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_debug.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_error.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_interface.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_mem_trace.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_mktime.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_poll.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_preprocessor.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_retarget.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_rtc_time.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_semihost_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_sleep.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_stats.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_toolchain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_wait_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/platform.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/rtc_time.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/semihost_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/sleep.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/toolchain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/wait_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="/tmp/tmpEip5EY/mbed_config.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="main.cpp" ex="false" tool="1" flavor2="0">
+                <ccTool flags="0">
+                </ccTool>
+            </item>
+            <item path="SWSPI/SWSPI.cpp" ex="false" tool="1" flavor2="0">
+                <ccTool flags="0">
+                </ccTool>
+            </item>
+            <item path="mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM/MK64FN1M0xxx12.ld" ex="false" tool="3" flavor2="0">
+                <customTool>
+                    <customToolCommandline>arm-none-eabi-cpp -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -o $@ $&lt;</customToolCommandline>
+                    <customToolDescription>Create ELF File using Link Script</customToolDescription>
+                    <customToolOutputs>${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld</customToolOutputs>
+                </customTool>
+            </item>
+            <item path="/nbproject/private/c_standard_headers_indexer.c" ex="true" tool="0" flavor2="0">
+            </item>
+            <item path="/nbproject/private/c_standard_headers_indexer.cpp" ex="true" tool="1" flavor2="0">
+            </item>
+        </conf>
+        
+        <conf name="develop" type="1">
+            <toolsSet>
+                <compilerSet>default</compilerSet>
+                <dependencyChecking>true</dependencyChecking>
+                <rebuildPropChanged>false</rebuildPropChanged>
+            </toolsSet>
+            <compileType>
+                <cTool>
+                    <standard>3</standard>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -Os -g1 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>FEATURE_LWIP=1</Elem>
+                        <Elem>__MBED__=1</Elem>
+                        <Elem>DEVICE_I2CSLAVE=1</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>TARGET_Freescale</Elem>
+                        <Elem>DEVICE_PORTINOUT=1</Elem>
+                        <Elem>TARGET_RTOS_M4_M7</Elem>
+                        <Elem>DEVICE_LOWPOWERTIMER=1</Elem>
+                        <Elem>DEVICE_RTC=1</Elem>
+                        <Elem>TOOLCHAIN_object</Elem>
+                        <Elem>DEVICE_SERIAL_ASYNCH=1</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        <Elem>DEVICE_STORAGE=1</Elem>
+                        <Elem>TARGET_KPSDK_MCUS</Elem>
+                        <Elem>TOOLCHAIN_GCC</Elem>
+                        <Elem>TARGET_CORTEX_M</Elem>
+                        <Elem>TARGET_KSDK2_MCUS</Elem>
+                        <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+                        <Elem>DEVICE_ANALOGOUT=1</Elem>
+                        <Elem>TARGET_M4</Elem>
+                        <Elem>TARGET_UVISOR_UNSUPPORTED</Elem>
+                        <Elem>TARGET_K64F</Elem>
+                        <Elem>DEVICE_SPI_ASYNCH=1</Elem>
+                        <Elem>DEVICE_PWMOUT=1</Elem>
+                        <Elem>DEVICE_INTERRUPTIN=1</Elem>
+                        <Elem>TARGET_CORTEX</Elem>
+                        <Elem>DEVICE_I2C=1</Elem>
+                        <Elem>DEVICE_PORTOUT=1</Elem>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>DEVICE_STDIO_MESSAGES=1</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>TARGET_LIKE_MBED</Elem>
+                        <Elem>TARGET_FF_ARDUINO</Elem>
+                        <Elem>TARGET_KPSDK_CODE</Elem>
+                        <Elem>TARGET_RELEASE</Elem>
+                        <Elem>DEVICE_SERIAL_FC=1</Elem>
+                        <Elem>FEATURE_STORAGE=1</Elem>
+                        <Elem>DEVICE_TRNG=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>DEVICE_SLEEP=1</Elem>
+                        <Elem>TOOLCHAIN_GCC_ARM</Elem>
+                        <Elem>TARGET_FRDM</Elem>
+                        <Elem>TARGET_MCUXpresso_MCUS</Elem>
+                        <Elem>DEVICE_SPI=1</Elem>
+                        <Elem>MBED_BUILD_TIMESTAMP=1525296447.15</Elem>
+                        <Elem>DEVICE_SPISLAVE=1</Elem>
+                        <Elem>DEVICE_ANALOGIN=1</Elem>
+                        <Elem>DEVICE_SERIAL=1</Elem>
+                        <Elem>DEVICE_FLASH=1</Elem>
+                        <Elem>DEVICE_PORTIN=1</Elem>
+                        <Elem>TARGET_MCU_K64F</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                </cTool>
+                <ccTool>
+                    <standard>4</standard>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-fno-rtti -Wvla -c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -Os -g1 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>FEATURE_LWIP=1</Elem>
+                        <Elem>__MBED__=1</Elem>
+                        <Elem>DEVICE_I2CSLAVE=1</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>TARGET_Freescale</Elem>
+                        <Elem>DEVICE_PORTINOUT=1</Elem>
+                        <Elem>TARGET_RTOS_M4_M7</Elem>
+                        <Elem>DEVICE_LOWPOWERTIMER=1</Elem>
+                        <Elem>DEVICE_RTC=1</Elem>
+                        <Elem>TOOLCHAIN_object</Elem>
+                        <Elem>DEVICE_SERIAL_ASYNCH=1</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        <Elem>DEVICE_STORAGE=1</Elem>
+                        <Elem>TARGET_KPSDK_MCUS</Elem>
+                        <Elem>TOOLCHAIN_GCC</Elem>
+                        <Elem>TARGET_CORTEX_M</Elem>
+                        <Elem>TARGET_KSDK2_MCUS</Elem>
+                        <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+                        <Elem>DEVICE_ANALOGOUT=1</Elem>
+                        <Elem>TARGET_M4</Elem>
+                        <Elem>TARGET_UVISOR_UNSUPPORTED</Elem>
+                        <Elem>TARGET_K64F</Elem>
+                        <Elem>DEVICE_SPI_ASYNCH=1</Elem>
+                        <Elem>DEVICE_PWMOUT=1</Elem>
+                        <Elem>DEVICE_INTERRUPTIN=1</Elem>
+                        <Elem>TARGET_CORTEX</Elem>
+                        <Elem>DEVICE_I2C=1</Elem>
+                        <Elem>DEVICE_PORTOUT=1</Elem>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>DEVICE_STDIO_MESSAGES=1</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>TARGET_LIKE_MBED</Elem>
+                        <Elem>TARGET_FF_ARDUINO</Elem>
+                        <Elem>TARGET_KPSDK_CODE</Elem>
+                        <Elem>TARGET_RELEASE</Elem>
+                        <Elem>DEVICE_SERIAL_FC=1</Elem>
+                        <Elem>FEATURE_STORAGE=1</Elem>
+                        <Elem>DEVICE_TRNG=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>DEVICE_SLEEP=1</Elem>
+                        <Elem>TOOLCHAIN_GCC_ARM</Elem>
+                        <Elem>TARGET_FRDM</Elem>
+                        <Elem>TARGET_MCUXpresso_MCUS</Elem>
+                        <Elem>DEVICE_SPI=1</Elem>
+                        <Elem>MBED_BUILD_TIMESTAMP=1525296447.15</Elem>
+                        <Elem>DEVICE_SPISLAVE=1</Elem>
+                        <Elem>DEVICE_ANALOGIN=1</Elem>
+                        <Elem>DEVICE_SERIAL=1</Elem>
+                        <Elem>DEVICE_FLASH=1</Elem>
+                        <Elem>DEVICE_PORTIN=1</Elem>
+                        <Elem>TARGET_MCU_K64F</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-g++</commandlineTool>
+                </ccTool>
+                <fortranCompilerTool>
+                    <developmentMode>5</developmentMode>
+                </fortranCompilerTool>
+                <asmTool>
+                    <developmentMode>5</developmentMode>
+                    <incDir>
+                        <pElem>.</pElem>
+                        <pElem>SWSPI</pElem>
+                        <pElem>mbed/.</pElem>
+                        <pElem>mbed/TARGET_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers</pElem>
+                        <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api</pElem>
+                        <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+                        <pElem>mbed/drivers</pElem>
+                        <pElem>mbed/hal</pElem>
+                        <pElem>mbed/platform</pElem>
+                        </incDir>
+                    <incFile>
+                        <pElem>mbed_config.h</pElem>
+                        </incFile>
+                    <commandLine>-x assembler-with-cpp -D__CORTEX_M4 -DCPU_MK64FN1M0VMD12 -DARM_MATH_CM4 -D__FPU_PRESENT=1 -D__MBED_CMSIS_RTOS_CM -D__CMSIS_RTOS -DFSL_RTOS_MBED -I. -ISWSPI -Imbed/. -Imbed/TARGET_K64F -Imbed/TARGET_K64F/TARGET_Freescale -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers -Imbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api -Imbed/TARGET_K64F/TOOLCHAIN_GCC_ARM -Imbed/drivers -Imbed/hal -Imbed/platform -c -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer -Os -g1 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp </commandLine>
+                    <preprocessorList>
+                        <Elem>__CORTEX_M4</Elem>
+                        <Elem>CPU_MK64FN1M0VMD12</Elem>
+                        <Elem>ARM_MATH_CM4</Elem>
+                        <Elem>__FPU_PRESENT=1</Elem>
+                        <Elem>__MBED_CMSIS_RTOS_CM</Elem>
+                        <Elem>__CMSIS_RTOS</Elem>
+                        <Elem>FSL_RTOS_MBED</Elem>
+                        </preprocessorList>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                </asmTool>
+                <linkerTool>
+                    <output>${CND_DISTDIR}/${CND_CONF}/K64F/pin_mirror_spi.elf</output>
+                    <additionalDep>${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld</additionalDep>
+                    <commandlineTool>arm-none-eabi-gcc</commandlineTool>
+                    <commandLine>-T ${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys</commandLine>
+                </linkerTool>
+            </compileType>
+            <item path="SWSPI/SWSPI.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/mbed.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_armcc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/arm_math.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cmSecureAccess.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_armclang.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_compiler.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_gcc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_iccarm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/cmsis_version.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_armv8mbl.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_armv8mml.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm0.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm0plus.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm23.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm3.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm33.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm4.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_cm7.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_sc000.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/core_sc300.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/mpu_armv7.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/mpu_armv8.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/tz_context.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_mpu.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/AnalogIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/AnalogOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/BusOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/CAN.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/DigitalOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Ethernet.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/FlashIAP.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/I2C.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/I2CSlave.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/InterruptIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/InterruptManager.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTicker.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTimeout.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/LowPowerTimer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortIn.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortInOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PortOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/PwmOut.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/RawSerial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SPI.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SPISlave.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Serial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/SerialBase.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Ticker.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Timeout.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/Timer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/TimerEvent.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/drivers/UARTSerial.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/Driver_Common.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/Driver_Storage.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/analogin_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/analogout_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/buffer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/can_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/can_helper.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/dma_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/emac_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/ethernet_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/flash_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/flash_data.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/gpio_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/gpio_irq_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/i2c_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/lp_ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/pinmap.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/port_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/pwmout_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/rtc_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/serial_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/sleep_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/spi_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/trng_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/hal/us_ticker_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CriticalSectionLock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/ATCmdParser.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CThunk.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CallChain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Callback.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/CircularBuffer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/DeepSleepLock.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/DirHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileBase.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileLike.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FilePath.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileSystemHandle.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FileSystemLike.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/FunctionPointer.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/LocalFileSystem.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/NonCopyable.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/PlatformMutex.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/SingletonPtr.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Stream.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/Transaction.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/critical.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_application.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_assert.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_critical.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_debug.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_error.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_interface.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_mem_trace.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_mktime.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_poll.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_preprocessor.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_retarget.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_rtc_time.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_semihost_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_sleep.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_stats.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_toolchain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/mbed_wait_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/platform.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/rtc_time.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/semihost_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/sleep.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/toolchain.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="mbed/platform/wait_api.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="/tmp/tmpEip5EY/mbed_config.h" ex="false" tool="3" flavor2="0">
+            </item>
+            <item path="main.cpp" ex="false" tool="1" flavor2="0">
+                <ccTool flags="0">
+                </ccTool>
+            </item>
+            <item path="SWSPI/SWSPI.cpp" ex="false" tool="1" flavor2="0">
+                <ccTool flags="0">
+                </ccTool>
+            </item>
+            <item path="mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM/MK64FN1M0xxx12.ld" ex="false" tool="3" flavor2="0">
+                <customTool>
+                    <customToolCommandline>arm-none-eabi-cpp -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -o $@ $&lt;</customToolCommandline>
+                    <customToolDescription>Create ELF File using Link Script</customToolDescription>
+                    <customToolOutputs>${CND_BUILDDIR}/${CND_CONF}/K64F/.link_script.ld</customToolOutputs>
+                </customTool>
+            </item>
+            <item path="/nbproject/private/c_standard_headers_indexer.c" ex="true" tool="0" flavor2="0">
+            </item>
+            <item path="/nbproject/private/c_standard_headers_indexer.cpp" ex="true" tool="1" flavor2="0">
+            </item>
+        </conf>
+        </confs>
+</configurationDescriptor>
