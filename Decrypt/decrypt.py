@@ -1,0 +1,74 @@
+
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+import base64
+import hashlib
+import binascii
+from Crypto import Random
+from Crypto.Cipher import AES
+import pdb
+import serial
+ser = serial.Serial('/dev/tty.usbmodem1412', 9600, timeout=1)
+
+print("about to read")
+reading = ser.readline()
+print(reading)
+#print(binascii.unhexlify(''.join(reading.split())))
+
+BS = 16
+pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
+unpad = lambda s : s[0:-ord(s[-1])]
+
+#when integrated, this function would receive the information from the board, and implement the decryption
+def decryption(encryptedString,keyhex,iv): 
+    secret = keyhex
+    PADDING = '{'
+    DecodeAES = lambda c, e: c.decrypt(base64.b64decode(e)).rstrip(PADDING)
+	#Key is FROM the printout of 'secret' in encryption
+	#below is the encryption.
+    encryption = encryptedString
+    cipher = AES.new(secret, AES.MODE_CBC, iv)
+    decoded = DecodeAES(cipher, encryption)
+    return decoded
+    
+class AESCipher:
+
+    def __init__( self, key ):
+        self.key = key
+
+    
+    def encrypt( self, raw ):
+        raw = pad(raw)
+        iv = Random.new().read( AES.block_size )
+        cipher = AES.new( self.key, AES.MODE_CBC, iv )
+        return iv + cipher.encrypt( raw ) 
+    
+    def decrypt( self, enc ):
+        iv = enc[:16]
+        cipher = AES.new(self.key, AES.MODE_CBC, iv )
+        #return cipher.decrypt( enc[16:] )
+        return unpad(cipher.decrypt( enc[16:] ))
+    
+
+
+'''Testing if the code works on a sample encoded image, taken from the FRDM board'''
+print "Start"
+#print key
+encr = 'e883f9567d2f61b0b984c9e23bd1c80733c62069f194ed88fc49779314c7d274c2d37ec1502dd164d49166f0ad79ba48310773e0fbff515c45ccd43e7f8e811d585a482b7e41c17bf727dcd18fecd9588e4367524660f5df2bd8097bab12254f888dcc7e08a6218995b6474d45b15124f7ac47fa399342a7e2d5f7fc49679c80bc9218dc318aa9b23a139940998821d2bade72a75b8ceb08495e96e4d7ab3247f05ae6854ad945c966256ce0eece92ea1e55922d3e47b2038272c2b6d482f70379beac7976ef64a4fcc73988ca32ba4ce008a68d7fb43ef3d3a431c34f342d0a2133197698c4a46a359ad3cbc66641754566e797d12b3083dfdf92ec87284866fcd35b95f8208d554d0c7416856923568310553bbb5552872fecd12dbcc4f78ae7df3fdcebaa989be9f7ec0ce685d5660e7ebdb4e40c5d86ba3ad4d40b37ede8f56b02914fa82be91ed3f86f395ee4b5a60b0190cf2e77cfd4aade7cf940c6d215bf0455be334ac324c8b574db8bfd890e7eb287302daec780c195a4665e33e1f7c024ad396fb22f197f42565ea47d9b2a9f119da62405f6b6c4796b6cb97553e134b631e9a106a9a85198cdd3d2cc7677591dd1caec564aa158636a585335c22793ee2b774f67a0166aba77eef14c0065d1ced611c888a35b491f14185510486702874ac0bdc277beee9fa0fd1ed244b3ac896c6b8ad26ffaf0b2c10f24628d28a8168eee6ad2a9847a5f7d331275ca430fc6d96434aaf42a2f604eab2c49677219ff7a51e4b97def983244ee0619ee1ae1215dcf8ed68f1a2f8d68bbb6620169f7af77007be33129a7fac10338cab9498fdb13e7ffc97382f629c8e4346020c1d93eaf0951b8d32ab038e275d5588db18391839a966189b888b5af8434e9fcd1aaf9e5ad9f11d6405ea46a995fd40baeb17d93b89409bdaae8a8eefe57e400f09686df6eb761bc3142002d4ef59275329d57723240e0d19a8f6b8c0dc837fc8fe66ac6adc99d23e31aea2ac6499d7b8237598a64ac37ec256c4934642a5954251a1778bbdb12ad1f8ecbbca48c0886b4d7d5412c6155e30b84dd25847835903978f582ed298308eb305fa5d898410877cd1189aed189b5538f6d3dc83b302779fb1b4964a0c7bc4ea252b50f266cc0d76c92c14070c060f1f09d368d23cfa77e01f78da7677437a47d1b6f11f975b3805ddafec853f620791c40f1472e308546cfd07e3765358aecef9b3e3813561169b9767e6afdd70347c65d259ed96c2e690a0a4f31880991c6937446bdf3f77c63064e6ccc09f17438da888696bd937db52eb27ed04908e51c7cccd6c9e0f4bbfe37ad246f29c1e6bf3801af585299abaff01293bcd7701e048519f0781a351e99c0874515e51660dda2906305df553a8051efb9580ef01cd06dabb43ea6fc1f15a33fbb577800e9706382752f7e0e2055869b2c58db1ab8d52a84d03c8e60c612f3e57a0ed348a0a675548466cb368842d5380ee28a7fdbb532a0d186d3311009f7c9b3e4d956ddc8706466bda437b0dfb6700d1433f722fcdc43c1b721f6833dc4e8cc88dabff2b4ee7eef9eb2d2d72e7c14478a52068c348d9bb061309cba2452e4ac42e982b6e4ec215bbd49288810d05c6782261ff7e83ab0341ca8746ad26a10f96f1bffb68ce4a3f1d42cab2b75d560954c442e8e244ebc3b589db59a7805feae1d54333b4531c717726325765efef05700111f6ce215f71d3853e9c729d4b8eb9e0e50eb335e85a3443fad9030d13275d508833f2ed26608f2418b3064259c15a76423ee2ec18975e627ef2143c98340452a525938dd87b3b5b40e218c462cb925d47f5114fbf8154dad91870a438fa5f63f3e85b1e2416089f76d7fd5846dfb749cb2cad3c6cfea209197bd8e69f4153d058e0b1bb02620481b03decebee437cd221ec7d1f8990b7c4313bcfdf186a93f8882b3522bdfab69d4e89a97c7832b0ddad04a66e59be644168dce0251fff384d7c66855abbaf82ff8971b5e7ea662872949cbf3d7a8320c5979ba808a656103e031b22501d16f61f99331d8728e7622e647bcd18958e5daa69907d0bbc99e5990ae8f5618f0fd4b2f12afa8318af1331f53875a202aa139c160b457e95f5e44c243871abf001319660f58e3780f7bdf5a678412b2fdb7d470d2dd32affd5e4878be00140200aefeadeede32dc9ef095d086341b0e5ba20abb451ad30213c764bc46c1aaeb19cfef370a46cd0b12767a8d224c82ff710fdc7a46d5acebc7cd9c25e878a9a9020b4a135667905a131997bf60a8aefe8e31586ba92294c2d1fa811d9c349b6c899324e1ac2aad6f9d0dd2b17ece7f899e96a60514dd446e94dd373713ba0782b6a49111267c7d17cfee11ae3671063f8e5e54d34755730b49c872bd5029ecb4dcc0c22c04f08fdd240459e72499e19f26ffa9d00a306e6a8051d352806da6ac1215071d959f202d84537c175fa379b348c390a2a9595a88d2d73321852efd5188ac633bf88418d9476c60acd9c7c40823aa85a1f2d4a9639db380d097a4455d9ae8770b7c407750e63a274a4b2e313574e6a155c5a196e5464bb20300585097529ad32312f239581e6b4247994af982f9cb829aa49dad313a11de9f5269893e58928c92c77b2ef6df6cd75f4533927785c3e19faab92090f265afa4b9b486144aae1ef88f2c147050457b43476651ca03434ef6223dc46cdc3ab0bf0a5a0a4fbc1cda887af8c84fc624eda0db5d545e41e95478bee01e996a3ad217a60c389f0b9f30e741ae1e6184374a9afba48a75a4ea91210016875b2779b86139766d27a824ea7558f8e8b68d3e09dfe03420c5614bcf0745ae0c324754d1b60616493ac488a3da84be95694bdcf0075b356759c00c32ef7c8370e2e87218327ca64bf689e5cfe78f552cba0bdb39342a8fa2293c43ce3892ef85ba1188a96b4dea9505e7cb408f5ff6fbe94875bdb4155f67a283a0dbe7f3358b8ecc9a271eb422b5f423aef1dea40190dec66e1379e2ba459f5443926b9eb7badbeeee803d9afc79263b2bc78e4121e722f41e795ed34248a788159ef1bcb16d49e91ca53242b1c5e86231f2408d87e7fbcba7098f736b4837d79ce2cc3e2aeb238df88081ae6e09efe9206762b5b3efbfec3ad388ef97340ca99db2c35f33f1511a12a7ef3c9aea8a934362fb5adf6be3457f7e01891e14de1292289daaa3d973b3aac4b00dce2acf7f5206f020522087af44ebfcdd942a8dc551b3eca7b8b462c2b4014affbd03cc2ec2ec85fba8089f577950964a9127156c78b157cde7d24b80c8dca54dc88f4e9b644c73debbb4dabd2b9dfe859b340d34c926a40acb5b7c5d50d16e86c35331367b334816c24979ac7a7d71f19da6fc252c76bb4e52a1cc9ac7a626d1762336d7177bf68cd1b330ee521ac519ad1d29ea9814ac94c9546c524ac30c4e1a2cdc68cf8bb6b653194e160ecffae66a200619f0e9ddc43d62b37f4a81428706493c68289413938749f0b10495718d91ce05c90d8d90a13225a437b34ac9e6a09706bfd38f57f7b1d41eb9f66a54de94d82381348c50ece9d36ee767a2ea7efac4cfbd8bdbe16f62ddec8ec11cf11e0e77a59ab16bd01e91'
+
+print "-------------------------------original image-----------------------\n"
+print encr
+encrstr = encr.decode("hex")
+encrypted = finalkey.encrypt(encrstr) 
+encryptedhex = ''+binascii.hexlify(''.join(encrypted.split()))
+print "----------------------------encrypted bytes-------------------------\n"
+print encryptedhex +"\n"
+
+
+print "----------------------------decrypted bytes-------------------------\n"
+decrypted = finalkey.decrypt(encrypted)
+decryptedhex = ''+binascii.hexlify(''.join(decrypted.split()))
+print decryptedhex
